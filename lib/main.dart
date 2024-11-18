@@ -1,6 +1,6 @@
 import 'package:easy_bills/2_application/core/services/theme_service.dart';
-import 'package:easy_bills/2_application/features/user_profile/screens/screen_create_update_user_profile.dart';
-import 'package:easy_bills/theme.dart';
+import 'package:easy_bills/2_application/core/themes/theme.dart';
+import 'package:easy_bills/2_application/features/product_master/screens/screen_create_update_product_master.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget {
         darkTheme: AppTheme.darkTheme,
         theme: AppTheme.lightTheme,
         themeMode: themeService.isDarkModeOn ? ThemeMode.dark : ThemeMode.light,
-        home: const ScreenCreateUpdateUserProfile(),
+        home: const WrapperProviderScreenCreateUpdateProductMaster(),
       );
     });
   }

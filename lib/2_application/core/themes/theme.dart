@@ -67,7 +67,7 @@ class AppTheme {
           color: _appbarColorLight,
           iconTheme: IconThemeData(color: _iconColor)),
       //bottomAppBarColor: _appbarColorLight,
-      bottomAppBarTheme: BottomAppBarTheme(color: _appbarColorLight),
+      bottomAppBarTheme: const BottomAppBarTheme(color: _appbarColorLight),
       colorScheme: ColorScheme.light(
         primary: _lightPrimaryColor,
         onPrimary: _lightOnPrimaryColor,

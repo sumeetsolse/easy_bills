@@ -19,7 +19,7 @@ class CustWidErrorMessage extends StatelessWidget {
           size: 50,
           color: themeData.colorScheme.error,
         ),
-        SizedBox(
+        const SizedBox(
           height: 20,
         ),
         Text(
